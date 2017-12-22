@@ -272,7 +272,6 @@
     <Content Include="config\404handlers.config" />
     <Content Include="App_Plugins\Terratype\package.manifest" />
     <Content Include="App_Plugins\Terratype\Views\grid.cshtml" />
-    <Content Include="App_Data\umbraco.config" />
     <Content Include="App_Browsers\Form.browser" />
     <Content Include="App_Browsers\w3cvalidator.browser" />
     <None Include="packages.config" />
@@ -447,6 +446,8 @@
     <Content Include="Umbraco\Webservices\TreeDataService.ashx" />
     <Content Include="Umbraco\Xslt\Web.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Views\MacroPartials\FeaturedProducts.cshtml" />
+    <Content Include="Views\MacroPartials\LatestBlogposts.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -455,8 +456,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\cache\d\9\5\e\f\8\d95ef88360a6ec5842be18c468c7b8f9c625a26a.jpg" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.SOV-DEV03.txt" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
@@ -1808,9 +1807,6 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\Models\" />
-    <Folder Include="App_Data\packages\created\" />
-    <Folder Include="App_Data\packages\installed\" />
     <Folder Include="obj\" />
   </ItemGroup>
   <PropertyGroup>
